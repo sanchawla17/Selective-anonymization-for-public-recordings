@@ -6,8 +6,8 @@ from pathlib import Path
 
 DATA_DIR = Path("face_dataset")       
 DB_PATH = Path("faces.db")            
-SAMPLES_PER_PERSON = 30                
-MIN_FACE_SIZE = (100, 100)             
+SAMPLES_PER_PERSON = 100                
+MIN_FACE_SIZE = (140, 160)             
 HAAR_PATH = cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
 
 def init_db():
